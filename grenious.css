@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf');
+}
+
+#topcontainer {
+    position: sticky;
+    width:100%;
+    top:calc(0px);
+    left:calc(0px);
+    
+}
+
+#header {
+    background-color: black;
+    width: 100%;
+
+}
+
+#logo {
+    height: 4rem;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footerlogo {
+    height: 4rem;
+}
+
+#footer {
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#songinfo {
+    background-color: #00ff00;
+    color: black;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    padding:1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#songtitle {
+    font-size:50px;
+    padding-left: 12px;
+    padding-top: 5px;
+    display:block;
+}
+#author {
+    font-size:20px;
+    padding-left: 12px;
+    display: block;
+}
+#lyrics {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding-left:12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+l {
+    display:block;
+}
+in {
+    display:none;
+}
+
+an {
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+an > l {
+    background-color: #dadada;
+}
+
+an.annotation {
+    cursor: default;
+}
+
+#anContainer {
+    z-index: 2;
+    position: fixed;
+    min-width: 33%;
+    min-height: 50%;
+    max-height: 75%;
+    top: calc(6rem);
+    right: calc(10px);
+}
+
+#annotation {
+    background-color: white;
+    min-height: 100%;
+    border: 5px black solid;
+    padding: 12px;
+    overflow-y: auto;
+    position: fixed;
+    min-width: 33%;
+    max-width: 33%;
+    min-height: 50%;
+    max-height: 75%;
+    top: calc(6rem);
+    right: calc(10px);
+}
+
+#close {
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+}
