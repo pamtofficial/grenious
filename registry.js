@@ -1,3 +1,21 @@
 const registry = [
-    'Candy'
-]
+"Baby Shark (Challenge Version)",
+"BINGO",
+"Broadway, broadway, broadway",
+"Candy",
+"Five Little Monkeys",
+"Hopelessly Devoted",
+"I Love You",
+"Learn Piano With Sesamie Theme",
+"Maria",
+"Michael With A Creeper",
+"Mister Mistophiles",
+"Oh Where Oh Where Has My Little Dog Gone",
+"Screw Loose",
+"That's Paradise EN",
+"That's Paradise JP-RO",
+"That's Paradise JP",
+"Twinkle Twinkle Little Star ABCs",
+"Walfing through the window",
+"Wheels on the Bus",
+];
