@@ -111,6 +111,11 @@ an > l {
     background-color: #dadada;
 }
 
+an:hover {
+    background-color: #838383;
+    color: white;
+}
+
 an.annotation {
     cursor: default;
 }
