@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 @font-face {
@@ -39,10 +38,30 @@ body {
     text-align: center;
     background-color: black;
     color: white;
+
 }
 
 a {
     color: white;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #0f0;
+}
+
+#annotation > div > a {
+    color: green;
+}
+#annotation > div > a:visited {
+    color: green;
 }
 
 #songinfo {
@@ -77,6 +96,7 @@ a {
 }
 l {
     display:block;
+    max-width: fit-content;
 }
 in {
     display:none;
@@ -124,4 +144,12 @@ an.annotation {
     position: relative;
     right: 70px;
     cursor: pointer;
+}
+
+.big {
+    font-size: 100px;
+}
+
+.small {
+    font-size: 8px;
 }

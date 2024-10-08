@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding song...</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <center>
+        <img src="LogoLongStroke.svg" height="80">
+        <div id="status">Finding a song... Hold tight!</div>
+    </center>
+</body>
+<script src="registry.js"></script>
+<script>
+    var selSong = registry[Math.floor(Math.random() * registry.length)];
+    window.location.href = window.location.href.split("random.html")[0] + "/grenious.html?song=" + encodeURI(selSong);
+</script>
+</html>
